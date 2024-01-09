@@ -20,12 +20,14 @@ To archive the files, the scripts use 7-zip, then they copy the files to another
 - ionice
 - nice
 - systemd
+- sudo
 
 Install:
 
 ```
 $ apt install 7z
 $ apt install rsync
+$ apt install sudo
 ```
 
 - At the moment, each dependency must be installed manually; however, a script will be provided later to automate this process.
