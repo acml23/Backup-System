@@ -1,0 +1,60 @@
+# Directories
+./target
+./debug
+
+# Binaries
+*.exe
+*.x86_64
+*.hex
+*.app
+*.out
+*.i*86
+
+# Dependencies
+*.d
+
+# Libraries
+*.a
+*.lib
+*.lai
+*.la
+*.lo
+
+# Headers
+*.gch
+*.pch
+
+# Objects
+*.dll
+*.dylib
+*.so
+*.so.*
+*.slo
+*.lo
+*.o
+*.ko
+*.elf
+*.obj
+
+# Linking
+*.map
+*.exp
+*.ilk
+
+# Kernel
+*.cmd
+modules.order
+Module.symvers
+dkms.conf
+Mkfile.old
+*.mod*
+*.mod
+*.smod
+
+# Auto-Generated Files
+*.pdb
+Cargo.lock
+**/*.rs.bk
+*.dSYM/
+*.su
+*.idb
